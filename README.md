@@ -2,10 +2,10 @@
   <img src="./.github/readme-images/icon_alt.png" align="center" width="128" />
 <p>
 <h1 align="center">
-  LNReader
+  Novels Akojdad 
 </h1>
 <p align="center">
-  LNReader is a Tachiyomi-like, free and open source light novel reader for Android.
+  Novels Akojdad is a Manga Akojdad-like, free and open source light novel reader for Android.
 </p>
 <div align="center">
   <a href="https://github.com/LNReader/lnreader/actions/workflows/build.yml">
@@ -39,7 +39,7 @@ Get the app from our [releases page](https://github.com/rajarsheechatterjee/LNRe
 
 ## Sources
 
-LNReader does not have any affiliation with the content providers available.
+Novels Akojdad does not have any affiliation with the content providers available.
 
 Source requests should be created at [LNReader/lnreader-sources](https://github.com/LNReader/lnreader-sources).
 
