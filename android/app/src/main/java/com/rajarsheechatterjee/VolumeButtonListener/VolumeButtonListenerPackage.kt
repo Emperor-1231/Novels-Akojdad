@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.VolumeButtonListener
+package com.akojdad.novels.VolumeButtonListener
 
 import android.view.View
 import com.facebook.react.ReactPackage
