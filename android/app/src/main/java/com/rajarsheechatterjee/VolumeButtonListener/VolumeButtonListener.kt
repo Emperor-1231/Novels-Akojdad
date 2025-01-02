@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.VolumeButtonListener
+package com.akojdad.novels.VolumeButtonListener
 
 import com.facebook.react.bridge.Arguments
 import com.facebook.react.bridge.ReactApplicationContext
