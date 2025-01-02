@@ -80,4 +80,15 @@ body:
     id: acknowledgements
     attributes:
       label: Acknowledgements
-      description: Read this carefully, we will close and ignore your issue
+      description: Read this carefully, we will close and ignore your issue if you skimmed through this.
+      options:
+        - label: I have searched the existing issues and this is a new ticket, **NOT** a duplicate or related to another open or closed issue.
+          required: true
+        - label: I have written a short but informative title.
+          required: true
+        - label: If this is an issue with a source, I should be opening an issue in the [sources repository](https://github.com/Emperor-1231/novels-akojdad-plugins/issues/new/choose).
+          required: true
+        - label: I have updated the app to version **[1.0.0](https://github.com/Emperor-1231/Novels-Akojdad/releases/latest)**.
+          required: true
+        - label: I will fill out all of the requested information in this form.
+          required: true
