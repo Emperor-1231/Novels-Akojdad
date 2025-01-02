@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.FileManager
+package com.akojdad.novels.FileManager
 
 import android.view.View
 import com.facebook.react.ReactPackage
