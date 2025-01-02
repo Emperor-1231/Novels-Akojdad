@@ -33,12 +33,12 @@ body.page-reader {
   padding-bottom: unset;
 }
 
-#NovelsAkojdad-chapter {
+#MyNovelsApp-chapter {
   padding-left: var(--readerSettings-padding);
   padding-right: var(--readerSettings-padding);
 }
 
-body.page-reader > #NovelsAkojdad-chapter{
+body.page-reader > #MyNovelsApp-chapter {
   height: calc(90vh);
   column-width: calc(100vw - var(--readerSettings-padding) * 2);
   column-gap: calc(var(--readerSettings-padding) * 2);
