@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.EpubUtil
+package com.akojdad.novels.EpubUtil
 
 import android.util.Xml
 import com.facebook.react.bridge.Promise
