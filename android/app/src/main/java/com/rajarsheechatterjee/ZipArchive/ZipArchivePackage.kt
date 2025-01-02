@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.ZipArchive
+package com.akojdad.novels.ZipArchive
 
 import android.view.View
 import com.facebook.react.ReactPackage
