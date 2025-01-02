@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.LNReader
+package com.akojdad.novels
 
 import android.app.Application
 import android.content.res.Configuration
@@ -9,10 +9,10 @@ import com.facebook.react.ReactPackage
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.soloader.SoLoader
-import com.rajarsheechatterjee.EpubUtil.EpubUtilPackage
-import com.rajarsheechatterjee.FileManager.FileManagerPackage
-import com.rajarsheechatterjee.VolumeButtonListener.VolumeButtonListenerPackage
-import com.rajarsheechatterjee.ZipArchive.ZipArchivePackage
+import com.akojdad.novels.EpubUtil.EpubUtilPackage
+import com.akojdad.novels.FileManager.FileManagerPackage
+import com.akojdad.novels.VolumeButtonListener.VolumeButtonListenerPackage
+import com.akojdad.novels.ZipArchive.ZipArchivePackage
 import expo.modules.ApplicationLifecycleDispatcher.onApplicationCreate
 import expo.modules.ApplicationLifecycleDispatcher.onConfigurationChanged
 import expo.modules.ReactNativeHostWrapper
