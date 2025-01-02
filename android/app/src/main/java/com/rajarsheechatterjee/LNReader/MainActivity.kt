@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.LNReader
+package com.akojdad.novels
 
 import android.graphics.Color
 import android.os.Build
@@ -10,7 +10,7 @@ import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
-import com.rajarsheechatterjee.VolumeButtonListener.VolumeButtonListener
+import com.akojdad.novels.VolumeButtonListener.VolumeButtonListener
 import expo.modules.ReactActivityDelegateWrapper
 import org.devio.rn.splashscreen.SplashScreen
 
