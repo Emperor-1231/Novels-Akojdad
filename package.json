@@ -1,6 +1,6 @@
 {
-  "name": "Novels Akojdad",
-  "version": "2.0.0",
+  "name": "novels-akojdad",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "npm run prestart && react-native run-android --active-arch-only",
