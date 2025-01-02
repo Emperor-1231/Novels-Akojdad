@@ -33,12 +33,12 @@ body.page-reader {
   padding-bottom: unset;
 }
 
-#LNReader-chapter {
+#NovelsAkojdad-chapter {
   padding-left: var(--readerSettings-padding);
   padding-right: var(--readerSettings-padding);
 }
 
-body.page-reader > #LNReader-chapter{
+body.page-reader > #NovelsAkojdad-chapter{
   height: calc(90vh);
   column-width: calc(100vw - var(--readerSettings-padding) * 2);
   column-gap: calc(var(--readerSettings-padding) * 2);
