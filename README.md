@@ -11,14 +11,11 @@
   <a href="https://github.com/Emperor-1231/Novels-Akojdad/actions/workflows/build.yml">
     <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Emperor-1231/Novels-Akojdad/build.yml?branch=main">
   </a>
-  <a href="https://discord.gg/QdcWN4MD63">
-    <img alt="Discord Chat" src="https://img.shields.io/discord/835746409357246465.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord&color=17cf48">
+  <a href="https://www.instagram.com/emperor_._1?igsh=enM4aG55Nmwwdmx2">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
   <a href="https://github.com/Emperor-1231/Novels-Akojdad/releases/latest">
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Emperor-1231/Novels-Akojdad">
-  </a>
-  <a href="https://github.com/Emperor-1231/Novels-Akojdad-preview/releases/latest">
-    <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/Emperor-1231/Novels-Akojdad-preview?color=red&label=preview">
   </a>
   <a title="Crowdin" target="_blank" href="https://crowdin.com/project/novels-akojdad"><img src="https://badges.crowdin.net/novels-akojdad/localized.svg"></a>
   <a href="https://github.com/Emperor-1231/Novels-Akojdad/blob/main/LICENSE">
