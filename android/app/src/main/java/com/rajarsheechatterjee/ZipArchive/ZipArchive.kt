@@ -1,4 +1,4 @@
-package com.rajarsheechatterjee.ZipArchive
+package com.akojdad.novels.ZipArchive
 
 import com.facebook.react.bridge.Promise
 import com.facebook.react.bridge.ReactApplicationContext
