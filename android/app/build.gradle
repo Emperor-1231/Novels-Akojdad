@@ -2,7 +2,7 @@ apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 
 react {
-    // إعدادات React Native (لا تحتاج إلى تعديل)
+ 
 }
 
 def enableProguardInReleaseBuilds = false
