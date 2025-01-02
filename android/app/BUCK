@@ -1,11 +1,11 @@
-# To learn about Buck see [Docs](https://buckbuild.com/).
-# To run your application with Buck:
-# - install Buck
-# - `npm start` - to start the packager
-# - `cd android`
-# - `keytool -genkey -v -keystore keystores/debug.keystore -storepass android -alias androiddebugkey -keypass android -dname "CN=Android Debug,O=Android,C=US"`
-# - `./gradlew :app:copyDownloadableDepsToLibs` - make all Gradle compile dependencies available to Buck
-# - `buck install -r android/app` - compile, install and run application
+# لتعلم المزيد عن Buck، راجع [التوثيق](https://buckbuild.com/).
+# لتشغيل تطبيقك باستخدام Buck:
+# - قم بتثبيت Buck
+# - `npm start` - لبدء الحزمة
+# - `cd android` - انتقل إلى مجلد android
+# - `keytool -genkey -v -keystore keystores/debug.keystore -storepass android -alias androiddebugkey -keypass android -dname "CN=Android Debug,O=Android,C=US"` - إنشاء مفتاح توقيع للتطبيق
+# - `./gradlew :app:copyDownloadableDepsToLibs` - جعل جميع تبعيات Gradle متاحة لـ Buck
+# - `buck install -r android/app` - ترجمة، تثبيت، وتشغيل التطبيق
 #
 
 load(":build_defs.bzl", "create_aar_targets", "create_jar_targets")
@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.rajarsheechatterjee.LNReader",
+    package = "com.akojdad.novels",
 )
 
 android_resource(
     name = "res",
-    package = "com.rajarsheechatterjee.LNReader",
+    package = "com.akojdad.novels",
     res = "src/main/res",
 )
 
