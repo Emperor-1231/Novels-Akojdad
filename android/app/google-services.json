@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "523872485654",
-    "project_id": "lnreader-backup",
-    "storage_bucket": "lnreader-backup.appspot.com"
+    "project_number": "986474240169",
+    "project_id": "novels-akojdad",
+    "storage_bucket": "novels-akojdad.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:523872485654:android:169cd062458db962ce1037",
+        "mobilesdk_app_id": "1:986474240169:android:ff3f2a878534578a44f1b8",
         "android_client_info": {
-          "package_name": "com.rajarsheechatterjee.LNReader"
+          "package_name": "com.akojdad.novels"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "523872485654-14jtut8orr7dbrk2chea279d7k8889sr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.rajarsheechatterjee.LNReader",
-            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
-          }
-        },
-        {
-          "client_id": "523872485654-liarmq8nl0g5an2cki3bpg9jc0d8a21j.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBH_j-0Jyo9aFJ_KV8Nr3te2hs_L_ZYhrE"
+          "current_key": "AIzaSyC7sk-IGOUBTX2ecuPVshda-56PQNh4hh8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "523872485654-liarmq8nl0g5an2cki3bpg9jc0d8a21j.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
