@@ -26,7 +26,7 @@
     "cheerio": "^1.0.0-rc.12",
     "color": "^4.2.3",
     "dayjs": "^1.11.10",
-    "expo": "^49.0.23",
+    "expo": "^52.0.23",
     "expo-clipboard": "~4.3.1",
     "expo-document-picker": "~11.5.4",
     "expo-file-system": "~15.4.5",
