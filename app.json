@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Novels Akojdad",
-    "slug": "Novels Akojdad",
-    "scheme": "novels akojdad",
+    "slug": "novels-akojdad",
+    "scheme": "novels-akojdad",
     "plugins": [
       "expo-localization"
     ]
