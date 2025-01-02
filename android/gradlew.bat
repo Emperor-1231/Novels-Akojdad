@@ -1,42 +1,41 @@
 @rem
-@rem Copyright 2015 the original author or authors.
+@rem حقوق النشر 2015 المؤلف الأصلي أو المؤلفون.
 @rem
-@rem Licensed under the Apache License, Version 2.0 (the "License");
-@rem you may not use this file except in compliance with the License.
-@rem You may obtain a copy of the License at
-@rem
+@rem مرخصة تحت رخصة Apache، الإصدار 2.0 ("الرخصة");
+@rem لا يمكنك استخدام هذا الملف إلا وفقًا للرخصة.
+@rem يمكنك الحصول على نسخة من الرخصة على العنوان
 @rem      https://www.apache.org/licenses/LICENSE-2.0
 @rem
-@rem Unless required by applicable law or agreed to in writing, software
-@rem distributed under the License is distributed on an "AS IS" BASIS,
-@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-@rem See the License for the specific language governing permissions and
-@rem limitations under the License.
+@rem ما لم يكن ذلك مطلوبًا بموجب القانون أو متفقًا عليه كتابيًا، يتم توزيع البرمجيات
+@rem الموزعة بموجب هذه الرخصة على أساس "كما هي"،
+@rem دون أي ضمانات أو شروط من أي نوع، سواء كانت صريحة أو ضمنية.
+@rem راجع الرخصة للحصول على التفاصيل الخاصة باللغة التي تحكم الأذونات
+@rem والقيود بموجب الرخصة.
 @rem
 
 @if "%DEBUG%"=="" @echo off
 @rem ##########################################################################
 @rem
-@rem  Gradle startup script for Windows
+@rem  نص بدء Gradle لنظام Windows
 @rem
 @rem ##########################################################################
 
-@rem Set local scope for the variables with windows NT shell
+@rem تعيين النطاق المحلي للمتغيرات مع shell Windows NT
 if "%OS%"=="Windows_NT" setlocal
 
 set DIRNAME=%~dp0
 if "%DIRNAME%"=="" set DIRNAME=.
-@rem This is normally unused
+@rem هذا غير مستخدم عادةً
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
-@rem Resolve any "." and ".." in APP_HOME to make it shorter.
+@rem حل أي "." و ".." في APP_HOME لجعله أقصر.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+@rem إضافة وسيطات JVM الافتراضية هنا. يمكنك أيضًا استخدام JAVA_OPTS وGRADLE_OPTS لتمرير وسيطات JVM إلى هذا النص.
 set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
 
-@rem Find java.exe
+@rem البحث عن java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
 
 set JAVA_EXE=java.exe
@@ -66,21 +65,21 @@ echo location of your Java installation.
 goto fail
 
 :execute
-@rem Setup the command line
+@rem إعداد سطر الأوامر
 
 set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 
 
-@rem Execute Gradle
+@rem تنفيذ Gradle
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
 
 :end
-@rem End local scope for the variables with windows NT shell
+@rem إنهاء النطاق المحلي للمتغيرات مع shell Windows NT
 if %ERRORLEVEL% equ 0 goto mainEnd
 
 :fail
-rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
-rem the _cmd.exe /c_ return code!
+rem تعيين متغير GRADLE_EXIT_CONSOLE إذا كنت بحاجة إلى رمز إرجاع _النص_ بدلاً من
+rem رمز إرجاع _cmd.exe /c_!
 set EXIT_CODE=%ERRORLEVEL%
 if %EXIT_CODE% equ 0 set EXIT_CODE=1
 if not ""=="%GRADLE_EXIT_CONSOLE%" exit %EXIT_CODE%
